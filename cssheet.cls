@@ -19,7 +19,7 @@
 \RequirePackage[singlespacing]{setspace}
 \RequirePackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
 \newcommand{\inlinequote}[2]{\glqq{}#1\grqq{} #2}
-\graphicspath{{/Users/wombat/nextcloud/ba-geometry/logos/}}
+\graphicspath{{/Users/wombat/nextcloud/logos/}}
 %--- END HEADER
 
 %--------------------------------------------------------------------------------------------------------------
@@ -60,6 +60,14 @@
     pdfkeywords={\thekeywords}
 }
 }
+
+% bibliography
+\bibliography{../literature.bib}
+%\bibliographystyle{plain}
+\nocite{*}
+%\defbibheading{references}[\refname]{\subsection{#1}
+%   \markboth{#1}{#1}}
+
 
 % title page
 \newcommand{\printtitle}{%
