@@ -1,16 +1,22 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.26)  5 MAY 2025 21:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.26)  5 MAY 2025 22:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**geo-base.tex
-(./geo-base.tex
+**02-beweisen-01.tex
+(./02-beweisen-01.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
+(../cssheet.cls
+
+LaTeX Warning: You have requested document class `../cssheet',
+               but the document class provides `cssheet'.
+
+Document Class: cssheet 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
 \c@section=\count197
@@ -700,45 +706,48 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip90
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 58.
+)
 \@quotelevel=\count423
 \@quotereset=\count424
 LaTeX Font Info:    Trying to load font information for T1+Raleway-TLF on input
- line 67.
+ line 20.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/raleway/T1Raleway-TLF.fd
 File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TL
 F.
 )
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 67.
+(Font)              scaled to size 10.0pt on input line 20.
 
-(./geo-base.aux)
-\openout1 = `geo-base.aux'.
+(./02-beweisen-01.aux)
+\openout1 = `02-beweisen-01.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 67.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 6
-7.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/ly1/ly1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 2
+0.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -759,12 +768,12 @@ LaTeX Font Info:    ... okay on input line 67.
 * \topmargin=-97.26999pt
 * \headheight=85.35826pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -817,120 +826,86 @@ File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `geo-base.bcf'.
+\openout4 = `02-beweisen-01.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'geo-base.bbl' not found.
+Package biblatex Info: ... file '02-beweisen-01.bbl' not found.
 
-No file geo-base.bbl.
-Package biblatex Info: Reference section=0 on input line 67.
-Package biblatex Info: Reference segment=0 on input line 67.
-Package hyperref Info: Link coloring OFF on input line 67.
-(./geo-base.out) (./geo-base.out)
+No file 02-beweisen-01.bbl.
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 20.
+
+(./02-beweisen-01.out) (./02-beweisen-01.out)
 \@outlinefile=\write5
-\openout5 = `geo-base.out'.
+\openout5 = `02-beweisen-01.out'.
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 72.
+(Font)              scaled to size 17.28pt on input line 21.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 72.
+(Font)              scaled to size 17.28pt on input line 21.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 75.
+(Font)              scaled to size 10.0pt on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 102.
+(Font)              <7> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 102.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 102.
+(Font)              <5> on input line 27.
 
 
-Package epstopdf Info: Source file: </Users/wombat/nextcloud/ba-geometry/logos/
-phhd.eps>
+Package epstopdf Info: Source file: <../../logos/phhd.eps>
 (epstopdf)                    date: 2024-12-29 23:40:30
 (epstopdf)                    size: 454411 bytes
-(epstopdf)             Output file: </Users/wombat/nextcloud/ba-geometry/logos/
-phhd-eps-converted-to.pdf>
+(epstopdf)             Output file: <../../logos/phhd-eps-converted-to.pdf>
 (epstopdf)                    date: 2024-12-29 23:43:20
 (epstopdf)                    size: 27289 bytes
-(epstopdf)             Command: <repstopdf --outfile=/Users/wombat/nextcloud/ba
--geometry/logos/phhd-eps-converted-to.pdf /Users/wombat/nextcloud/ba-geometry/l
-ogos/phhd.eps>
-(epstopdf)             \includegraphics on input line 104.
+(epstopdf)             Command: <repstopdf --outfile=../../logos/phhd-eps-conve
+rted-to.pdf ../../logos/phhd.eps>
+(epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
-</Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf, id=4, 243
-.91125pt x 103.38625pt>
-File: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf Graph
-ic file (type pdf)
-<use /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf>
-Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-con
-verted-to.pdf  used on input line 104.
+<../../logos/phhd-eps-converted-to.pdf, id=4, 243.91125pt x 103.38625pt>
+File: ../../logos/phhd-eps-converted-to.pdf Graphic file (type pdf)
+<use ../../logos/phhd-eps-converted-to.pdf>
+Package pdftex.def Info: ../../logos/phhd-eps-converted-to.pdf  used on input l
+ine 37.
 (pdftex.def)             Requested size: 100.68906pt x 42.67912pt.
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2025/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}
 
- </Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf>]
-
-Package epstopdf Info: Source file: </Users/wombat/nextcloud/ba-geometry/logos/
-phhd.eps>
-(epstopdf)                    date: 2024-12-29 23:40:30
-(epstopdf)                    size: 454411 bytes
-(epstopdf)             Output file: </Users/wombat/nextcloud/ba-geometry/logos/
-phhd-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-12-29 23:43:20
-(epstopdf)                    size: 27289 bytes
-(epstopdf)             Command: <repstopdf --outfile=/Users/wombat/nextcloud/ba
--geometry/logos/phhd-eps-converted-to.pdf /Users/wombat/nextcloud/ba-geometry/l
-ogos/phhd.eps>
-(epstopdf)             \includegraphics on input line 133.
-Package epstopdf Info: Output file is already uptodate.
-File: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf Graph
-ic file (type pdf)
-<use /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf>
-Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-con
-verted-to.pdf  used on input line 133.
-(pdftex.def)             Requested size: 100.68906pt x 42.67912pt.
-[2]
-</Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png, id=49, 66.30275pt x 23.
-42697pt>
-File: /Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png Graphic file (type 
-png)
-<use /Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png>
-Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png 
- used on input line 154.
+ <../../logos/phhd-eps-converted-to.pdf>]
+<../../logos/cc-zero.png, id=21, 66.30275pt x 23.42697pt>
+File: ../../logos/cc-zero.png Graphic file (type png)
+<use ../../logos/cc-zero.png>
+Package pdftex.def Info: ../../logos/cc-zero.png  used on input line 39.
 (pdftex.def)             Requested size: 80.53004pt x 28.45274pt.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 156.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 157.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 157.
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--175
-
- []
+(Font)              scaled to size 5.0pt on input line 39.
 
 
-
-Package epstopdf Info: Source file: </Users/wombat/nextcloud/ba-geometry/logos/
-phhd.eps>
+Package epstopdf Info: Source file: <../../logos/phhd.eps>
 (epstopdf)                    date: 2024-12-29 23:40:30
 (epstopdf)                    size: 454411 bytes
-(epstopdf)             Output file: </Users/wombat/nextcloud/ba-geometry/logos/
-phhd-eps-converted-to.pdf>
+(epstopdf)             Output file: <../../logos/phhd-eps-converted-to.pdf>
 (epstopdf)                    date: 2024-12-29 23:43:20
 (epstopdf)                    size: 27289 bytes
-(epstopdf)             Command: <repstopdf --outfile=/Users/wombat/nextcloud/ba
--geometry/logos/phhd-eps-converted-to.pdf /Users/wombat/nextcloud/ba-geometry/l
-ogos/phhd.eps>
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             Command: <repstopdf --outfile=../../logos/phhd-eps-conve
+rted-to.pdf ../../logos/phhd.eps>
+(epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
-File: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf Graph
-ic file (type pdf)
-<use /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf>
-Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-con
-verted-to.pdf  used on input line 177.
+File: ../../logos/phhd-eps-converted-to.pdf Graphic file (type pdf)
+<use ../../logos/phhd-eps-converted-to.pdf>
+Package pdftex.def Info: ../../logos/phhd-eps-converted-to.pdf  used on input l
+ine 44.
 (pdftex.def)             Requested size: 100.68906pt x 42.67912pt.
-[3 </Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png>] (./geo-base.aux)
+[2 <../../logos/cc-zero.png>] (./02-beweisen-01.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -939,36 +914,35 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `geo-base.out' has not changed.
+Package rerunfilecheck Info: File `02-beweisen-01.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                geo-base
+(biblatex)                02-beweisen-01
 (biblatex)                and rerun LaTeX afterwards.
 
-Package logreq Info: Writing requests to 'geo-base.run.xml'.
-\openout1 = `geo-base.run.xml'.
+Package logreq Info: Writing requests to '02-beweisen-01.run.xml'.
+\openout1 = `02-beweisen-01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18487 strings out of 473190
- 327374 string characters out of 5715800
- 1264953 words of memory out of 5000000
- 41489 multiletter control sequences out of 15000+600000
- 643602 words of font info for 57 fonts, out of 8000000 for 9000
+ 18555 strings out of 473190
+ 328984 string characters out of 5715800
+ 1260558 words of memory out of 5000000
+ 41586 multiletter control sequences out of 15000+600000
+ 627253 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,15n,101p,697b,5179s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 81i,15n,101p,703b,5179s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bol
 d.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/impallari/raleway/Raleway
 -Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb>
-Output written on geo-base.pdf (3 pages, 121114 bytes).
+/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb>
+Output written on 02-beweisen-01.pdf (2 pages, 104984 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 37 named destinations out of 1000 (max. 500000)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

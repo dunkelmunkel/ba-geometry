@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>geo-base.bcf</file>
+      <file>02-beweisen-01.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>geo-base.bbl</file>
+      <file>02-beweisen-01.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -68,19 +68,22 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>geo-base</infile>
+      <infile>02-beweisen-01</infile>
     </cmdline>
     <input>
-      <file>geo-base.bcf</file>
+      <file>02-beweisen-01.bcf</file>
     </input>
     <output>
-      <file>geo-base.bbl</file>
+      <file>02-beweisen-01.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>geo-base.bbl</file>
+      <file>02-beweisen-01.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>geo-base.bcf</file>
+      <file>02-beweisen-01.bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>../literature.bib</file>
     </requires>
   </external>
 </requests>
