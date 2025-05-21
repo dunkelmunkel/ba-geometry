@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>03-dreieckstransversalen.bcf</file>
+      <file>01-definieren-vorbereitung.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>03-dreieckstransversalen.bbl</file>
+      <file>01-definieren-vorbereitung.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -58,29 +58,29 @@
       <file>apa.bbx</file>
       <file>apa.cbx</file>
       <file>biblatex.cfg</file>
-      <file>german.lbx</file>
-      <file>german-apa.lbx</file>
-      <file>ngerman.lbx</file>
-      <file>ngerman-apa.lbx</file>
+      <file>english.lbx</file>
+      <file>american.lbx</file>
+      <file>american-apa.lbx</file>
+      <file>english-apa.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>03-dreieckstransversalen</infile>
+      <infile>01-definieren-vorbereitung</infile>
     </cmdline>
     <input>
-      <file>03-dreieckstransversalen.bcf</file>
+      <file>01-definieren-vorbereitung.bcf</file>
     </input>
     <output>
-      <file>03-dreieckstransversalen.bbl</file>
+      <file>01-definieren-vorbereitung.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>03-dreieckstransversalen.bbl</file>
+      <file>01-definieren-vorbereitung.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>03-dreieckstransversalen.bcf</file>
+      <file>01-definieren-vorbereitung.bcf</file>
     </requires>
     <requires type="editable">
       <file>../literature.bib</file>
